@@ -1,0 +1,272 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB74E2BA135D5C1300C982AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB74E2B9135D5C1300C982AE /* UIKit.framework */; };
+		CB74E2BC135D5C1300C982AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB74E2BB135D5C1300C982AE /* Foundation.framework */; };
+		CB74E2BE135D5C1300C982AE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB74E2BD135D5C1300C982AE /* CoreGraphics.framework */; };
+		CB74E2C4135D5C1300C982AE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB74E2C2135D5C1300C982AE /* InfoPlist.strings */; };
+		CB74E2C7135D5C1300C982AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB74E2C6135D5C1300C982AE /* main.m */; };
+		CB74E2CD135D5C1300C982AE /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB74E2CB135D5C1300C982AE /* MainWindow.xib */; };
+		CB74E2D4135D5C2600C982AE /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB74E2D3135D5C2600C982AE /* AudioToolbox.framework */; };
+		DC86B62D13A047D7004961ED /* AudioUnitGraph_iphoneAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC86B62C13A047D7004961ED /* AudioUnitGraph_iphoneAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CB74E2B5135D5C1300C982AE /* iphone_instrument.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iphone_instrument.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB74E2B9135D5C1300C982AE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CB74E2BB135D5C1300C982AE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CB74E2BD135D5C1300C982AE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CB74E2C1135D5C1300C982AE /* iphone_instrument-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iphone_instrument-Info.plist"; sourceTree = "<group>"; };
+		CB74E2C3135D5C1300C982AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CB74E2C5135D5C1300C982AE /* iphone_instrument-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iphone_instrument-Prefix.pch"; sourceTree = "<group>"; };
+		CB74E2C6135D5C1300C982AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB74E2C8135D5C1300C982AE /* AudioUnitGraph_iphoneAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioUnitGraph_iphoneAppDelegate.h; sourceTree = "<group>"; };
+		CB74E2CC135D5C1300C982AE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		CB74E2D3135D5C2600C982AE /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = ../../../../../../System/Library/Frameworks/AudioToolbox.framework; sourceTree = "<group>"; };
+		DC86B62C13A047D7004961ED /* AudioUnitGraph_iphoneAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AudioUnitGraph_iphoneAppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB74E2B2135D5C1300C982AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB74E2BA135D5C1300C982AE /* UIKit.framework in Frameworks */,
+				CB74E2BC135D5C1300C982AE /* Foundation.framework in Frameworks */,
+				CB74E2BE135D5C1300C982AE /* CoreGraphics.framework in Frameworks */,
+				CB74E2D4135D5C2600C982AE /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB74E2AA135D5C1200C982AE = {
+			isa = PBXGroup;
+			children = (
+				CB74E2BF135D5C1300C982AE /* AudioUnitGraph_iphone */,
+				CB74E2B8135D5C1300C982AE /* Frameworks */,
+				CB74E2B6135D5C1300C982AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB74E2B6135D5C1300C982AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB74E2B5135D5C1300C982AE /* iphone_instrument.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB74E2B8135D5C1300C982AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB74E2D3135D5C2600C982AE /* AudioToolbox.framework */,
+				CB74E2B9135D5C1300C982AE /* UIKit.framework */,
+				CB74E2BB135D5C1300C982AE /* Foundation.framework */,
+				CB74E2BD135D5C1300C982AE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB74E2BF135D5C1300C982AE /* AudioUnitGraph_iphone */ = {
+			isa = PBXGroup;
+			children = (
+				CB74E2C8135D5C1300C982AE /* AudioUnitGraph_iphoneAppDelegate.h */,
+				DC86B62C13A047D7004961ED /* AudioUnitGraph_iphoneAppDelegate.m */,
+				CB74E2CB135D5C1300C982AE /* MainWindow.xib */,
+				CB74E2C0135D5C1300C982AE /* Supporting Files */,
+			);
+			path = AudioUnitGraph_iphone;
+			sourceTree = "<group>";
+		};
+		CB74E2C0135D5C1300C982AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB74E2C1135D5C1300C982AE /* iphone_instrument-Info.plist */,
+				CB74E2C2135D5C1300C982AE /* InfoPlist.strings */,
+				CB74E2C5135D5C1300C982AE /* iphone_instrument-Prefix.pch */,
+				CB74E2C6135D5C1300C982AE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB74E2B4135D5C1300C982AE /* iphone_instrument */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB74E2D0135D5C1300C982AE /* Build configuration list for PBXNativeTarget "iphone_instrument" */;
+			buildPhases = (
+				CB74E2B1135D5C1300C982AE /* Sources */,
+				CB74E2B2135D5C1300C982AE /* Frameworks */,
+				CB74E2B3135D5C1300C982AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iphone_instrument;
+			productName = AudioUnitGraph_iphone;
+			productReference = CB74E2B5135D5C1300C982AE /* iphone_instrument.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB74E2AC135D5C1200C982AE /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = CB74E2AF135D5C1200C982AE /* Build configuration list for PBXProject "iphone_instrument" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CB74E2AA135D5C1200C982AE;
+			productRefGroup = CB74E2B6135D5C1300C982AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB74E2B4135D5C1300C982AE /* iphone_instrument */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB74E2B3135D5C1300C982AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB74E2C4135D5C1300C982AE /* InfoPlist.strings in Resources */,
+				CB74E2CD135D5C1300C982AE /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB74E2B1135D5C1300C982AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB74E2C7135D5C1300C982AE /* main.m in Sources */,
+				DC86B62D13A047D7004961ED /* AudioUnitGraph_iphoneAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CB74E2C2135D5C1300C982AE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB74E2C3135D5C1300C982AE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CB74E2CB135D5C1300C982AE /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB74E2CC135D5C1300C982AE /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB74E2CE135D5C1300C982AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CB74E2CF135D5C1300C982AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		CB74E2D1135D5C1300C982AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AudioUnitGraph_iphone/iphone_instrument-Prefix.pch";
+				INFOPLIST_FILE = "AudioUnitGraph_iphone/iphone_instrument-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PRODUCT_NAME = iphone_instrument;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CB74E2D2135D5C1300C982AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AudioUnitGraph_iphone/iphone_instrument-Prefix.pch";
+				INFOPLIST_FILE = "AudioUnitGraph_iphone/iphone_instrument-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PRODUCT_NAME = iphone_instrument;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB74E2AF135D5C1200C982AE /* Build configuration list for PBXProject "iphone_instrument" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB74E2CE135D5C1300C982AE /* Debug */,
+				CB74E2CF135D5C1300C982AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB74E2D0135D5C1300C982AE /* Build configuration list for PBXNativeTarget "iphone_instrument" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB74E2D1135D5C1300C982AE /* Debug */,
+				CB74E2D2135D5C1300C982AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB74E2AC135D5C1200C982AE /* Project object */;
+}
